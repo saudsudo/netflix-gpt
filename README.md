@@ -14,7 +14,7 @@
 -   Netflix Home page
     -   Header
     -   Movie 
-        - Trainer video
+        - Trailer video
         - Title Desc Left
         - Movie Suggestions list * N
 
