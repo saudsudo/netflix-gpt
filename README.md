@@ -3,6 +3,9 @@
 # Configuration
 -   Create React app using Webpack
 -   configured Tailwind
+-   Header
+-   Login form
+-   Signup form
 
 # Netflix-GPT Wireframe
 -   login/Sign up 
