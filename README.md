@@ -18,7 +18,7 @@
 
 -   Redux Store (User Store)
     -   Configured User Store with Use Slice for use add and remove functionality for sign -in and signout
-    -   
+-   Updated profile display name using firebase update profile API
 
 
 # Netflix-GPT Wireframe
