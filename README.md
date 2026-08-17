@@ -4,8 +4,22 @@
 -   Create React app using Webpack
 -   configured Tailwind
 -   Header
+-   Routing of App using react-router-dom lib
 -   Login form
 -   Signup form
+-   Form Validation using regex
+-   useRef Hook Usage
+-   firebase setup
+-   Deploy out app to firebase
+
+-   Authentication via Firebase
+    -   Create sign up user account using firebase
+    -   Create sign in user using firebase
+
+-   Redux Store (User Store)
+    -   Configured User Store with Use Slice for use add and remove functionality for sign -in and signout
+    -   
+
 
 # Netflix-GPT Wireframe
 -   login/Sign up 
