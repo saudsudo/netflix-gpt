@@ -4,5 +4,5 @@ export const credValidations = (email, pwd) => {
 
   const isValidPwd = /^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[a-zA-Z]).{8,}$/.test(pwd);
   if (!isValidPwd) return "Invalid Password, Please try again.";
-  return null;
+  return "";
 };

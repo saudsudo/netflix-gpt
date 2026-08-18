@@ -8,19 +8,20 @@ import { useDispatch } from "react-redux";
 import { addUser, removeUser } from "../utils/reduxStore/userSlice";
 
 const Body = () => {
-//   const dispatch = useDispatch();
+  const dispatch = useDispatch();
 
-//   useEffect(() => {
-//     onAuthStateChanged(auth, (user) => {
-//       if (user) {
-       
-//         const { uid, email, displayName } = user;
-//         dispatch(addUser({ uid, email, displayName }));
-//       } else {
-        
-//       }
-//     });
-//   },[]);
+  useEffect(() => {
+    onAuthStateChanged(auth, (user) => {
+      if (user) {
+        // alert(user.uid);
+        // alert(user.displayName);
+        const { uid, email, displayName } = user;
+        dispatch(addUser({ uid, email, displayName }));
+      } else {
+        // dispatch(removeUser());
+      }
+    });
+  },[]);
   const appRouter = createBrowserRouter([
     {
       path: "/",
