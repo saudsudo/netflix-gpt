@@ -20,6 +20,19 @@
     -   Configured User Store with Use Slice for use add and remove functionality for sign -in and signout
 -   Updated profile display name using firebase update profile API
 
+- Bug fix 
+    - User login => Redirect to Browser  - even if manually entered /login or /
+    - User not login => Redirect to Login - even if manually entered /Browse
+    - Unsubscrible to the onauthstatechange call back
+
+- Added local images/logos in constant files
+
+-   API Integration for TDMB movie API
+    -   Register on TDMB and get API key
+    -   Added API options in constant files
+
+    
+
 
 # Netflix-GPT Wireframe
 -   login/Sign up 
